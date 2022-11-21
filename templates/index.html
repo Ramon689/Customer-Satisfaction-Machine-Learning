@@ -6,13 +6,25 @@
 </head>
 <body>
     <form action="{{ url_for('predict')}}" method="POST">
-        Sepal-Length:  <input type="number" name="sepal_length"></br>
-        Sepal_Width:   <input type="number" name="sepal_width"></br>
-	Petal_Length:  <input type="number" name="petal_length"></br>
-	Petal_Width:   <input type="number" name="petal_width"></br>
-      
+     Gender:  <input type="number" name="Gender"></br>
+     Customer Type :   <input type="number" name="Customer Type"></br>
+	Age:  <input type="number" name="Age"></br>
+	Type of Travel :   <input type="number" name="Type of Travel "></br>
+     Class  <input type="number" name="Class"></br>
+     Ease of Online booking :<input type="number" name="Ease of Online booking "></br>
+	Food and drink:  <input type="number" name="Food and drink"></br>
+	Seat comfort:   <input type="number" name="Seat comfort"></br> 
+              Inflight entertainment:  <input type="number" name="Inflight entertainment"></br>
+     On-board service:   <input type="number" name="On-board service"></br>
+	Checkin service:  <input type="number" name="Age"></br>
+	Inflight service:   <input type="number" name="Inflight service"></br>
+     Cleanliness  <input type="number" name="Cleanliness"></br>
+     Departure Delay in Minutes :<input type="number" name="Departure Delay in Minutes"></br>
+      Arrival Delay in Minutes :<input type="number" name="Arrival Delay in Minutes"></br>
         <input type=submit value=Submit>
    </form>
     My final prediction: {{ predict }}
 </body>
 </html>
+ 
+ 
